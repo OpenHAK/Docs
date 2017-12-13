@@ -1,10 +1,11 @@
 # Update OpenHAK Firmware
-
+  
 ### Welcome! I'm going to guide you through the process to upload new firmware to your OpenHAK. We'll use our latest release as an example. It's pretty simple, but there's some steps involved. 
 
 **NOTE:** Images below from an Android phone. iPhone images coming soon!
 
 ## Step One
+
 ### Downlad out latest release to your phone, [OpenHAK 0.0.4](https://github.com/OpenHAK/OHAK_firmware/blob/master/Release_0.0.4.zip).
 
 ![github/openhak](assets/new_release.png)
@@ -44,4 +45,6 @@ The app will show you the file you just selected and all the settings. If you ma
 ### Uploading will happen. When it's done, you can run the OpenHAK app and connect to your OpenHAK.
 
 ![Starting_Bootloader](assets/Uploading.png)
+
+### Step 2 was kinda long but that's basically it!
 
