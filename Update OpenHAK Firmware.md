@@ -16,7 +16,7 @@
 ### Download the nRF Toolbox app from your favorite app store. A direct search for `nRF Toolbox` should bring it right to you. This app has the ability to connect to your OpenHAK and do all kinds of things, including Device Firmware Update (DFU). Once it downloads, open it up. On first launch, you'll get asked to let the app access stuff on your phone. Just say yes to that. Once you launch it, the main screen of the app offers you some tools to choose from. Choose DFU to continue this guide. 
 
 
-![DFU Tool](assets/DFUtool.png) 
+![DFU Tool](assets/DFUtool.png)
 
 ### Now it's time to go find the .zip file of our software release. First, the app will ask you what you're doing. Tell it that you're sending a 'Distribution packet (ZIP)', then press OK.
 
