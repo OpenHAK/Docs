@@ -30,7 +30,7 @@
 
 ![selectScope](assets/selectScope.png)
 
-### The app will show you the file you just selected and all the settings. If you made a mistake, tap `SELECT FILE` go go a'hunting. Once you have the correct file loaded, it's time to select the device. Tap the button on the bottom of the screen.
+### The app will show you the file you just selected and all the settings. If you made a mistake, tap `SELECT FILE` to go a'hunting. Once you have the correct file loaded, it's time to select the device. Tap the button on the bottom of the screen.
 
 ![SelectDevice](assets/selectDevice.png)
 
