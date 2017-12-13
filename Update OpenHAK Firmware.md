@@ -2,7 +2,7 @@
   
 ### Welcome! I'm going to guide you through the process to upload new firmware to your OpenHAK. We'll use our latest release as an example. It's pretty simple, but there's some steps involved. 
 
-**NOTE:** Images below from an Android phone. iPhone images coming soon!
+### **NOTE:** Images below from an Android phone. iPhone images coming soon!
 
 ## Step One
 
