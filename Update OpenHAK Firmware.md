@@ -2,6 +2,10 @@
   
 ### Welcome! I'm going to guide you through the process to upload new firmware to your OpenHAK. We'll use our latest release as an example. It's pretty simple, but there's some steps involved. 
 
+### Video showing OTA firmware using Android: https://youtu.be/99FAGOL7Lco
+
+### Video showing OTA firmware using iOS: https://youtu.be/hfw3FGN5gXY
+
 ### **NOTE:** Images below from an Android phone. iPhone images coming soon!
 
 ## Step One
