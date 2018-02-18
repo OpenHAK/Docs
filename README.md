@@ -1,7 +1,7 @@
 # Docs
 The place for Documentation of all things OpenHAK related
 
-##Getting started with Arduino firmware
+## Getting started with Arduino firmware
 To create firmware to upload to your OpenHAK, you'll need to install to correct board files into the Arduino IDE
 1. Open the Arduino IDE
 2. On a Mac, click on the Arduino menu and select preferences, on PC and Linux, select the File menu and select preferences
@@ -14,11 +14,11 @@ To create firmware to upload to your OpenHAK, you'll need to install to correct 
 9. Now you can select the OpenHAK board from the Arduino Boards menu, and compile code for your OpenHAK!
 
 
-##Getting code on your OpenHAK
+## Getting code on your OpenHAK
 The easiest way, that also requires no additional hardware, is to use the OTA DFU method
 Find videos and a step by step guide here: https://github.com/OpenHAK/Docs/blob/master/Update%20OpenHAK%20Firmware.md
 
-###Using FTDI
+### Using FTDI
 You need a 3.3v FTDI and the OpenHAK accessory cable
 Connection guide coming soon!!
 
