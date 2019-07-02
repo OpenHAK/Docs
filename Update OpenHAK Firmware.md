@@ -10,23 +10,23 @@
 
 ## Step One
 
-### Downlad out latest release to your phone, [OpenHAK 0.0.4](https://github.com/OpenHAK/OHAK_firmware/blob/master/Release_0.0.4.zip).
+### Downlad out latest release to your phone, [OpenHAK 0.1.0](https://github.com/OpenHAK/OpenHAK_Firmware/blob/master/OpenHAK_Firmware_v01/OpenHAK_Firmware_v01.zip).
 
 ![github/openhak](assets/new_release.png)
 
-### If you have trouble, you can also email the zip file to yourself, and store it on your phone. The hardest part about this step is making sure that once you download the .zip you can find it wherever the phone has saved it.
+### If you have trouble, you can also email the zip file to yourself, and store it on your phone. The hardest part about this step is making sure that once you download the .zip you can find it wherever the phone-thing has saved it.
 
 ## Step Two
-### Download the nRF Toolbox app from your favorite app store. A direct search for `nRF Toolbox` should bring it right to you. This app has the ability to connect to your OpenHAK and do all kinds of things, including Device Firmware Update (DFU). Once it downloads, open it up. On first launch, you'll get asked to let the app access stuff on your phone. Just say yes to that. Once you launch it, the main screen of the app offers you some tools to choose from. Choose DFU to continue this guide. 
+### Download the nRF Toolbox app from your favorite app store. A direct search for `nRF Toolbox` should bring it right to you. This app has the ability to connect to your OpenHAK and do all kinds of things, including Device Firmware Update (DFU). Install the app, and open it up. On first launch, you'll get asked to let the app access stuff on your phone. Just say yes to that. Once you launch it, the main screen of the app offers you some tools to choose from. Choose DFU to continue this guide. 
 
 
 ![DFU Tool](assets/DFUtool.png)
 
-### Now it's time to go find the .zip file of our software release. First, the app will ask you what you're doing. Tell it that you're sending a 'Distribution packet (ZIP)', then press OK.
+### Now it's time to go find the .zip file of our software release. First, the app will ask you what you're doing. Tell it that you're sending a `Distribution packet (ZIP)`, then press OK.
 
 ![DistPack](assets/DistPack.png)
 
-### I found My file in the Downloads folder of my Pixel.
+### I found My file in the Downloads folder of my Pixel. If you use DropBox, for example, that can be a handy place to store things too. The Toolbox app seems to remember the last file you opened from, so it's good to keep your files tidy.
 
 ![findFile](assets/findFile.png)
 
