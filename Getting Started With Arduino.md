@@ -22,7 +22,7 @@ The easiest way, that also requires no additional hardware, is to use the OTA DF
 Find videos and a step by step guide [here](https://github.com/OpenHAK/Docs/blob/master/Update%20OpenHAK%20Firmware.md)
 
 ### Other Stuff
-If you program code OTA but fail to include the OTAbootlader librarey, you will need a 3.3v FTDI and an OpenHAK accessory cable in order to re-flash the board. Please, **always** #include the OTAbootloader code!
+If you program code OTA but fail to include the OTA bootlader library, you will need a 3.3v FTDI and an OpenHAK accessory cable to re-flash the board. Please, **always** `#include <ota_bootloader.h>`!
 
 * insert pic of hardware pinout with specs and links to male header
 * if using SparkFun library comment out line 147 and another one...
