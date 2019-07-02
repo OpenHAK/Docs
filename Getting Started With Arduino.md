@@ -19,7 +19,18 @@ To create firmware to upload to your OpenHAK, you'll need to install the correct
 
 ## Getting code onto your OpenHAK
 The easiest way, that also requires no additional hardware, is to use the OTA DFU method.
-Find videos and a step by step guide [here](https://github.com/OpenHAK/Docs/blob/master/Update%20OpenHAK%20Firmware.md)
+Find videos and a step by step guide [here](https://github.com/OpenHAK/Docs/blob/master/Update%20OpenHAK%20Firmware.md). The guide shows you how to upload new firmware Over The Air (wirelessly) and uses our latest production release in the example.
+
+## If you want to modify or make your own code
+You can do it in the Arduino IDE.
+
+**Always include the OTA bootloader library** `#include <ota_bootloader.h>` to make sure that you can keep using OTA firmware update. 
+
+The trick to using the OTA method of firmware update is that it requires a specially formatted ZIP file. You'll be happy to know that our OpenHAK board files that you just loaded into Arduino above already make this possible. Instead of pressing the Upload button, go to 
+
+	Sketch / Export compiled Binary
+	
+When you click on that, the Arduino IDE will compile your code (if it can) and the spit out a ZIP file into the same sketch folder as your code. The ZIP file will be titled something like `OpenHAK_Firmware_v01.ino.zip` **Remember to take out the `.ino` in the file name** as this can cause hiccups. Now all you have to do is get that ZIP file onto your phone and follow the [guide](https://github.com/OpenHAK/Docs/blob/master/Update%20OpenHAK%20Firmware.md) on using OTA tools.	
 
 ### Other Stuff
 If you program code OTA but fail to include the OTA bootlader library, you will need a 3.3v FTDI and an OpenHAK accessory cable to re-flash the board. Please, **always** `#include <ota_bootloader.h>`!
